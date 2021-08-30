@@ -11,10 +11,7 @@ int main() {
 
 	cout << x.get_value().first << endl;
 	x.add_child(y);
-	vector<Node> children = x.get_children();
-	for (int i = 0; i < children.size(); i++) {
-		cout << children[i].get_value().first << endl;
-	}
 
+	x.remove_child(y);
 	return 0;
 }

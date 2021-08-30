@@ -23,6 +23,9 @@ void Node::set_path(set<pair<int, int> > path) {
 }
 
 void Node::remove_child(Node &child_node) {
-	//vector <int> :: iterator itr;
-	//itr = find(_children.begin(), _children.end(), child_node);
+	for (int i = 0; i < _children.size(); i++) {
+		cout << _children[i]._value.first << endl;
+		cout << &child_node << endl;
+		cout << &_children[i] << endl;
+	}
 }
