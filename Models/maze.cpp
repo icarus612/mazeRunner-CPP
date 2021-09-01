@@ -2,6 +2,7 @@
 
 using std::vector;
 using std::pair;
+using std::set;
 
 Maze::Maze(
 	vector<vector <int> >layout, 

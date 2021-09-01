@@ -3,6 +3,7 @@
 
 using std::vector;
 using std::pair;
+using std::set;
 
 class Maze {
 	char _wall_char, _start_char, _end_char, _open_char, build_type;
