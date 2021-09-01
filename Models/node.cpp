@@ -2,7 +2,11 @@
 #include <algorithm>
 #include "node.hpp"
 
-using namespace std;
+using std::cout;
+using std::endl;
+using std::string;
+using std::pair;
+using std::vector;
 
 Node::Node(pair<int, int> value) : _value(value) {}
 
