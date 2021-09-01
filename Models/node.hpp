@@ -3,7 +3,9 @@
 #include <string>
 #include <set>
 
-using namespace std;
+using std::vector;
+using std::pair;
+using std::set;
 
 class Node {
 	pair <int, int> _value;
@@ -14,6 +16,6 @@ class Node {
 		pair<int, int> get_value();
 		void add_child(Node &child_node);
 		vector<Node> get_children();
-		void set_path(set <pair <int, int> > path);
+		void set_path(set <pair <int, int> > &path);
 		void remove_child(Node &child_node);
 };
